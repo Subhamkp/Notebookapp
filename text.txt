@@ -1,0 +1,8 @@
+Clone your project
+Go to the file using cd
+Type composer install
+Type copy .env.example .env if using cmd
+Type php artisan key:generate
+Open your .env file and change the database name to whatever you have, username to root and leave the password field empty.
+Type php artisan migrate
+Go to localhost:8000
